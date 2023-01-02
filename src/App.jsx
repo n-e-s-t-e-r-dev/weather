@@ -4,10 +4,12 @@ import './App.css'
 
 
 
+
+
 function App() {
   
-  const backgroundDay = `background-image: url(./src/assets/Img/sunnyday.jpg)`;
-  const backgroundNight = `background-image: url(./src/assets/Img/backgroundnight1.jpg)`;
+  const backgroundDay = `background-image: url(https://w0.peakpx.com/wallpaper/973/575/HD-wallpaper-sunny-day-fence-pretty-wonderful-stunning-sunny-beautiful-clouds-nice-flowers-way-road-blue-amazing-sunlight-spring-sky-trees-summer-day-nature-meadow-grassland.jpg)`;
+  const backgroundNight = `background-image: url(https://p4.wallpaperbetter.com/wallpaper/900/861/277/space-1920x1080-earth-wallpaper-preview.jpg)`;
   
   document.body.style = backgroundDay
 
@@ -19,6 +21,7 @@ function App() {
   minutes = ("0"+ minutes).slice(-2)
   seconds = ("0"+ seconds).slice(-2)
   let completeHour = `${hours} : ${minutes} : ${seconds} ${journey}`;
+
 
   const [weather, setWeather] = useState({});
 
@@ -64,7 +67,7 @@ navigator.geolocation.getCurrentPosition(success, error);
 
 
   const rainny = <img src="./src/assets/Img/Rain.png" alt=""></img>
-  const sunny = <img src="./src/assets/Img/Sunny.png" alt=""></img>
+  const sunny = <img src="https://static.vecteezy.com/system/resources/thumbnails/009/304/897/small_2x/sun-icon-set-clipart-design-illustration-free-png.png" alt=""></img>
   const milt = <img src="./src/assets/Img/mild.png" alt=""></img>
   
 
